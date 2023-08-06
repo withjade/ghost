@@ -2,7 +2,7 @@ services:
 - type: web
   name: ghost
   env: docker
-  autoDeploy: false
+  autoDeploy: true
   disk:
     name: ghost
     mountPath: /var/lib/ghost/content
